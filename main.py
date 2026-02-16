@@ -88,4 +88,4 @@ history=model.fit(train_generator,
                 validation_data=validation_generator,
                 validation_steps=num_test_imgs//32)
 
-model.save('model_file.h5')
+model.save('model_file_30epochs.h5')
